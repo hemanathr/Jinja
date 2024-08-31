@@ -9,13 +9,13 @@ from jinja2 import Environment, FileSystemLoader
 max_score = 100
 test_name = "Python Challenge"
 students = [
-    {"name": "Nikilesh",  "score": 100},
-    {"name": "Nirmala", "score": 77},
-    {"name": "Vyshali", "score": 96},
-    {"name": "Meena", "score": 67},
-    {"name": "Khokila", "score": 82},
-    {"name": "Ashwin", "score": 89},
-    {"name": "Anand", "score": 98}
+    {"name": "Inbaraj",  "score": 100},
+    {"name": "Hemanath", "score": 77},
+    {"name": "Gopinath", "score": 96},
+    {"name": "Salman", "score": 67},
+    {"name": "Nikilesh", "score": 82},
+    {"name": "Naga Arjun", "score": 89},
+    {"name": "Dharshan", "score": 98}
 ]
 
 environment = Environment(loader=FileSystemLoader("templates/"))
